@@ -1,8 +1,11 @@
 guzo-travel-app/
+
   ├── public/
+  
   │     ├── index.html
   │     ├── images/
   │     └── ...
+  
   ├── src/
   │     ├── components/
   │     │     ├── Auth/
