@@ -36,7 +36,7 @@ We welcome contributions from the open-source community to enhance the Guzo Trav
 AnaniyaLegesse <https://github.com/AnaniyaLegesse>
 Liul-Abera  <https://github.com/Liul-Abera>
 
-![Guzo Travel App]()
+
 
 
 
