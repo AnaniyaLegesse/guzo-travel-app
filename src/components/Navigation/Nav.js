@@ -1,7 +1,6 @@
 import React from "react";
-import "../../css/Bootstrap.css"
-import { FiHeart } from "react-icons/fi";
-import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
+
+import {  AiOutlineUserAdd } from "react-icons/ai";
 import "./Nav.css";
 import { Link } from "react-router-dom";
 
