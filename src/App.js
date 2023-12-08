@@ -55,13 +55,13 @@ function App() {
     }
 
     return filteredTourSite.map(
-      ({ _id, img, title, star, reviews }) => (
+      ({ _id, img, title,reviews }) => (
         <Card
           key={_id}
           id={_id}
           img={img}
           title={title}
-          star={star}
+          
           reviews={reviews}
           
           

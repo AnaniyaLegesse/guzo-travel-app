@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { AiFillStar } from "react-icons/ai";
 
 
 
-const Card = ({ id,img, title, star, reviews}) => {
+const Card = ({img, title, reviews}) => {
 
   return (
     <>
@@ -17,7 +16,7 @@ const Card = ({ id,img, title, star, reviews}) => {
                 <span className="total-reviews">{reviews}</span>
              </section>
             <section className="card-more">
-                <Link to={`/casts/${id}`} className="btns">see more</Link>
+                
             </section>
         </div>
       </section>

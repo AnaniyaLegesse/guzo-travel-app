@@ -1,8 +1,7 @@
 import React from "react";
-
 import {  AiOutlineUserAdd } from "react-icons/ai";
 import "./Nav.css";
-import { Link } from "react-router-dom";
+
 
 
 const Nav = ({ handleInputChange, query }) => {
@@ -19,8 +18,6 @@ const Nav = ({ handleInputChange, query }) => {
         />
       </div>
       <div className="profile-container">
-        
-      <Link to="/login" className="btns">login</Link>
 
         <a href="#">
           <AiOutlineUserAdd className="nav-icons" />
