@@ -19,9 +19,9 @@ const Nav = ({ handleInputChange, query }) => {
       </div>
       <div className="profile-container">
 
-        <a href="#">
+        {/* <a href="#">
           <AiOutlineUserAdd className="nav-icons" />
-        </a>
+        </a> */}
        
       </div>
     </nav>

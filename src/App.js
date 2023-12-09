@@ -11,6 +11,8 @@ import TourSite from "./db/data.js"
 
 function App() {
 
+  const [TourSite, setTourSite]=useState(TourSite)
+
   const [selectedCategory, setSelectedCategory] = useState("");
 
   // ----------- Input Filter -----------
