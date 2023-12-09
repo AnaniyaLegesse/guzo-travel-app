@@ -1,17 +1,16 @@
-
 import { useState } from "react";
-
-import Navigation from "./components/Navigation/Nav";
 import Casts from "./components/Casts/Casts";
 import Recommended from "./components/Recommended/Recommended";
-import Sidebar from "./components/Sidebar/Sidebar.js";
 import Card from "./components/Card.js";
 import "./index.css";
 import TourSite from "./db/data.js"
+import Hero from "./components/Hero/Hero.js";
 
 function App() {
 
-  const [TourSite, setTourSite]=useState(TourSite)
+  const [TourSite, setTourSite]=useState([])
+
+  setTourSite={TourSite}
 
   const [selectedCategory, setSelectedCategory] = useState("");
 
@@ -36,7 +35,7 @@ function App() {
     setSelectedCategory(event.target.value);
   };
 
-  function filteredData(TourSite, selected, query) {
+  function filteredData(TourSite, query) {
     let filteredTourSite = TourSite;
 
     // Filtering Input Items
@@ -45,16 +44,16 @@ function App() {
     }
 
     // Applying selected filter
-    if (selected) {
-      filteredTourSite = filteredTourSite.filter(
-        ({ category, time, reviews, rating, title }) =>
-          category === selected ||
-          time === selected ||
-          reviews === selected ||
-          rating === selected ||
-          title === selected
-      );
-    }
+    // if (selected) {
+    //   filteredTourSite = filteredTourSite.filter(
+    //     ({ category, time, reviews, rating, title }) =>
+    //       category === selected ||
+    //       time === selected ||
+    //       reviews === selected ||
+    //       rating === selected ||
+    //       title === selected
+    //   );
+    // }
 
     return filteredTourSite.map(
       ({ _id, img, title,reviews }) => (
@@ -63,7 +62,6 @@ function App() {
           id={_id}
           img={img}
           title={title}
-          
           reviews={reviews}
           
           
@@ -76,9 +74,7 @@ function App() {
 
   return (
     <>
-    
-      <Sidebar handleChange={handleChange} />
-      <Navigation query={query} handleInputChange={handleInputChange} />
+      <Hero/>
       <Recommended handleClick={handleClick} />
       <Casts result={result} />
     </>
