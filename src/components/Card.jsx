@@ -29,7 +29,8 @@ const MediaCard = ({ title, imageUrl, description ,rating , price }) => {
         </Typography>
       </CardContent>
       
-      <CardActions align="left" >
+      <CardActions>
+        <Link to="/detailpage"><Button size="md">See More</Button></Link>
         <Link to="/checkout"><Button size="md">Check</Button></Link>
       </CardActions>
     </Card>
