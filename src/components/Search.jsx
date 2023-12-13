@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import tourData from  './assets/data/tourData.jsx'
+import tourData from  '../assets/data/tourData.jsx'
 
 
 // A search component that takes a query and returns a list of results
@@ -50,8 +50,7 @@ function Search() {
           {results.map((result) => (
             <li key={result.id}>
               <h3>{result.title}</h3>
-              <p>{result.content.slice(0, 100)}...</p>
-              <a href={result.url}>Read more</a>
+              <p>{result.info.slice(0, 100)}...</p>
             </li>
           ))}
         </ul>
