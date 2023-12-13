@@ -16,12 +16,12 @@ To install and run Guzo Travel App locally, follow these steps:
 
 1. Clone the repository: 
 ```shell
-git clone https://github.com/your-username/travel-app.git
+git clone https://github.com/your-username/guzo-travel-app.git
 ```
 
 2. Navigate to the project directory: 
 ```shell
-cd travel-app
+cd guzo-travel-app
 ```
 
 3. Install the dependencies: 
@@ -31,7 +31,7 @@ npm install
 
 4. Start the development server: 
 ```shell
-npm start
+npm run dev
 ```
 
 5. Open your browser and visit: `http://localhost:3000` to access Guzo Travel App.
@@ -69,12 +69,12 @@ Here are some related projects that you may find interesting:
 
 ## Licensing
 
-Guzo Travel App is released under the [MIT License](link-to-license-file). Please review the license file for more details.
+Guzo Travel App is released under Ananiya & Leul.
 
 ## Authors
 
-- [Author 1](link-to-author-1-linkedin-profile)
-- [Author 2](link-to-author-2-linkedin-profile)
+- [Ananiya Legesse](link-to-author-1-linkedin-profile)
+- [Liul Abera](link-to-author-2-linkedin-profile)
 
 Feel free to reach out to the authors for any questions or further information about the project.
 
