@@ -13,7 +13,7 @@ function App() {
     
         
          <Header title="Guzo Travel"  />
-         <Grid container  sx={{ m:10, mt:5}}>
+         <Grid container  sx={{ m:'auto', mt:5 , justifyContent:'center'}}>
             <CardList tourData={tourData} />
              
          </Grid>
