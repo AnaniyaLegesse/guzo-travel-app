@@ -79,6 +79,16 @@
       price: 300,
       info:
         "A colossal neoclassical sculpture on Liberty Island in New York Harbor, USA. Symbolizing freedom and democracy, it was a gift from France to the USA in the 19th century"
+    },
+    {
+      id: 4,
+      city: "newyork",
+      img: "https://www.bing.com/th?id=OSK.HERO2qkpnaQQzQS6ZyoFQIUy-8PEFqKaFaJQMJ3oVgqwAJY&pid=cdx&w=200&h=118&c=7",
+      name: "Louvre",
+      rating:5,
+      price: 300,
+      info:
+      " The world’s largest and most visited art museum, located in Paris, France. Admire the masterpieces of painting, sculpture, and other arts, such as the Mona Lisa and the Venus de Milo"
     }
   ];
   
