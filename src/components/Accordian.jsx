@@ -62,14 +62,14 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel1")}
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>How long is the travel?</Typography>
+          <Typography>What is there to do in Las Vegas during the day?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+          There are plenty of things to do in Las Vegas during the day,
+           such as visiting the Strip, seeing a show, experiencing the nightlife, 
+           exploring the attractions, or venturing outside the city to see the natural wonders.
+           
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -78,14 +78,14 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel2")}
       >
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Do we need to bring food and drinks?</Typography>
+          <Typography>Cheap things to do in Las Vegas?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+          Las Vegas can be an expensive city, but there are also many ways to enjoy it on
+           a budget. Some of the cheap things to do in Las Vegas are: watching the free shows,
+            such as the Bellagio fountains, the Mirage volcano, or the Circus Circus acts; 
+            visiting the free attractions.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -94,14 +94,13 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel3")}
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>What will we see?</Typography>
+          <Typography>What can you do for free in Las Vegas?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+         you can things for free in Las Vegas, such as: walking along the Strip and admiring the architecture,
+          the lights, and the people; visiting the art galleries and museums, such as the CityCenter
+           Fine Art Collection, the Bellagio Gallery of Fine Art, or the Marjorie Barrick Museum of Art.
           </Typography>
         </AccordionDetails>
       </Accordion>

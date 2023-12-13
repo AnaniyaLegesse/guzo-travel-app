@@ -1,9 +1,10 @@
  const tourData = [
+  
     {
       id: 1,
       city: "Colosseum",
-      img: "https://www.bing.com/th?id=OSK.HEROr1KhU6WvY4mdZiIUAsiDmWuSgR1Alb1rnn_-rOouKf4&pid=cdx&w=200&h=118&c=7",
-      name: "Colosseum",
+      img: "https://media.timeout.com/images/105124791/750/422/image.jpg",
+      name: "Las vegas nevada",
       rating:4,
       price: 100,
       info:
