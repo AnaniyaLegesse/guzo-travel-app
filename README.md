@@ -73,7 +73,7 @@ Guzo Travel App is released under Ananiya & Leul.
 
 ## Authors
 
-- [Ananiya Legesse](link-to-author-1-linkedin-profile)
+- [Ananiya Legesse](https://www.linkedin.com/in/ananiya-legesse-474939259/)
 - [Liul Abera](link-to-author-2-linkedin-profile)
 
 Feel free to reach out to the authors for any questions or further information about the project.
