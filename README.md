@@ -6,9 +6,8 @@ As the name indicates Guzo Travel is TravelApp.
 
 Guzo Travel App is a web application developed using React.js that aims to provide a seamless and intuitive travel experience for users. It offers a range of features including destination search and exploration, trip planning and itinerary management, real-time flight and hotel booking, interactive maps and navigation, reviews and recommendations, social sharing and community engagement, notifications and alerts, offline access and syncing, and responsive design.
 
-To access the deployed site, please visit [Guzo Travel App](https://www.Guzo Travel App.com).
+To access the deployed site, please visit [Guzo Travel App](https://guzo-travel.netlify.app/).
 
-For more information about the project and its development process, you can read the final project blog article [here](link-to-blog-article).
 
 ## Installation
 
@@ -61,15 +60,10 @@ git push origin feature/your-feature-name
 
 Please ensure that your contributions align with the project's coding standards and guidelines.
 
-## Related Projects
-
-Here are some related projects that you may find interesting:
-
-- [Guzo Travel App Backend](https://github.com/your-username/travel-app-backend): The backend server for Guzo Travel App.
 
 ## Licensing
 
-Guzo Travel App is released under Ananiya & Leul.
+Guzo Travel App is released under Ananiya & Liul.
 
 ## Authors
 
